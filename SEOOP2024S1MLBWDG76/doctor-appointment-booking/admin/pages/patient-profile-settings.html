@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+
+<!-- Main Wrapper -->
+<div class="main-wrapper">
+
+	<!-- Header -->
+	<div class="header">
+
+
+		<a href="javascript:void(0);" id="toggle_btn">
+			<i class="fe fe-text-align-left"></i>
+		</a>
+
+		<!-- Mobile Menu Toggle -->
+		<a class="mobile_btn" id="mobile_btn">
+			<i class="fa fa-bars"></i>
+		</a>
+		<!-- /Mobile Menu Toggle -->
+	</div>
+	<!-- /Header -->
+
+	<!-- Sidebar -->
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-inner slimscroll">
+			<div id="sidebar-menu" class="sidebar-menu">
+				<ul>
+					<li class="menu-title">
+						<span>Main</span>
+					</li>
+					<li >
+						<a href="../index.html"><i class="fe fe-home"></i> <span>Dashboard</span></a>
+					</li>
+					<li>
+						<a href="appointment-list.html"><i class="fe fe-layout"></i> <span>Appointments</span></a>
+					</li>
+					<li >
+						<a href="doctor-list.html"><i class="fe fe-user-plus"></i> <span>Doctors</span></a>
+					</li>
+					<li class="active">
+						<a href="patient-list.html"><i class="fe fe-user"></i> <span>Patients</span></a>
+					</li>
+					<li>
+						<a href="prescription-list.html"><i class="fe fe-user"></i> <span>Prescription</span></a>
+					</li>
+					<li>
+						<a href="item-list.html"><i class="fe fe-user"></i> <span>Items</span></a>
+					</li>
+					<li>
+						<a href="profile.html"><i class="fe fe-user-plus"></i> <span>Profile</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- /Sidebar -->
+
+	<!-- Page Wrapper -->
+	<div class="page-wrapper">
+		<div class="content container-fluid">
+
+			<!-- Page Header -->
+			<div class="page-header">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="page-title">Add new Patient</h3>
+						<ul class="breadcrumb">
+							<li class="breadcrumb-item"><a href="../index.html">Dashboard</a></li>
+							<li class="breadcrumb-item"><a href="doctor-list.html">Patient</a></li>
+							<li class="breadcrumb-item active">New</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /Page Header -->
+
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="card">
+						<div class="card-body">
+							<div class="table-responsive">
+								<div class="col-md-9 col-lg-12 col-xl-12">
+									<div class="card">
+										<div class="card-body">
+											<h4 class="card-title">Patient Information</h4>
+											<div class="row form-row">
+												<div class="col-md-6">
+													<div class="form-group">
+														<label>Full Name <span class="text-danger">*</span></label>
+														<input id="input-patient-full-name" type="text" class="form-control" >
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label>Mobile <span class="text-danger">*</span></label>
+														<input id="input-patient-phone" type="tel" class="form-control" >
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label>Date of Birth</label>
+														<div class="">
+															<input id="input-patient-dob" type="date" class="form-control datetimepicker">
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label>Address <span class="text-danger">*</span></label>
+														<input id="input-patient-address" type="text" class="form-control">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label>Username <span class="text-danger">*</span></label>
+														<input id="input-patient-username" type="text" class="form-control">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label>Password <span class="text-danger">*</span></label>
+														<input id="input-patient-password" type="password" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- /Basic Information -->
+
+									<div class="submit-section submit-btn-bottom">
+										<button id="save-new-patient-btn" type="button" class="btn btn-primary submit-btn">Save Patient</button>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- /Page Wrapper -->
+
+</div>
+<!-- /Main Wrapper -->
+
+<script src="../scripts/patient/patient-profile-settings.js" ></script>
+</body>
+</html>
+
+

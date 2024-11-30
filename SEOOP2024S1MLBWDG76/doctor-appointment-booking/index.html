@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+	
+	</head>
+	<body>
+
+		<!-- Main Wrapper -->
+		<div class="main-wrapper">
+		
+			<!-- Header -->
+			<header class="header">
+				<nav class="navbar navbar-expand-lg header-nav">
+					<div class="navbar-header">
+						<a id="mobile_btn" href="javascript:void(0);">
+							<span class="bar-icon">
+								<span></span>
+								<span></span>
+								<span></span>
+							</span>
+						</a>
+					</div>
+					<div class="main-menu-wrapper">
+						<ul class="main-nav">
+							<li class="active">
+								<a href="index.html">Home</a>
+							</li>
+							<li class="has-submenu">
+								<a href="pages/search.html">Doctors </i></a>
+							</li>
+							<li>
+								<a href="admin/index.html" target="_blank">Admin</a>
+							</li>
+							<li class="login-link">
+								<a href="pages/login.html">Login / Signup</a>
+							</li>
+						</ul>		 
+					</div>		 
+					<ul class="nav header-navbar-rht" id="user-menu">
+						<li class="nav-item contact-item">
+							<div class="header-contact-img">
+								<i class="far fa-hospital"></i>							
+							</div>
+							<div class="header-contact-detail">
+								<p class="contact-header">Contact</p>
+								<p class="contact-info-header"> +011 0011200</p>
+							</div>
+						</li>
+						<li class="nav-item" >
+							<a class="nav-link header-login" href="pages/login.html">login / Signup </a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<!-- /Header -->
+			
+			<!-- Home Banner -->
+			<section class="section section-search">
+				<div class="container-fluid">
+					<div class="banner-wrapper">
+						<div class="banner-header text-center">
+							<h1>Search Doctor, Make an Appointment</h1>
+							<p>Discover the best doctors for you.</p>
+						</div>
+
+						<!-- Search -->
+						<div class="search-box" style="margin-left: 140px;">
+							<form>
+								<div class="form-group search-info">
+									<input id="doctor-search-home-input" type="text" class="form-control" placeholder="Search Doctors, Clinics, Hospitals, Diseases Etc">
+									<span class="form-text">Ex : Dental or Sugar Check up etc</span>
+								</div>
+								<button id="doctor-search-btn" type="button" class="btn btn-primary search-btn"><i class="fas fa-search"></i> <span>Search</span></button>
+							</form>
+						</div>
+						<!-- /Search -->
+						
+					</div>
+				</div>
+			</section>
+		   
+	   </div>
+
+		<script src="scripts/index.js"></script>
+		
+	</body>
+</html>

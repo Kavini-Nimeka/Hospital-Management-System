@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+		
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+
+        <link rel="stylesheet" href="../assets/css/style.css">
+
+    </head>
+    <body>
+	
+		<!-- Main Wrapper -->
+        <div class="main-wrapper">
+
+			<!-- Header -->
+			<div class="header">
+
+				<a href="javascript:void(0);" id="toggle_btn">
+					<i class="fe fe-text-align-left"></i>
+				</a>
+
+				<!-- Mobile Menu Toggle -->
+				<a class="mobile_btn" id="mobile_btn">
+					<i class="fa fa-bars"></i>
+				</a>
+				<!-- /Mobile Menu Toggle -->
+			</div>
+			<!-- /Header -->
+
+			<!-- Sidebar -->
+			<div class="sidebar" id="sidebar">
+				<div class="sidebar-inner slimscroll">
+					<div id="sidebar-menu" class="sidebar-menu">
+						<ul>
+							<li class="menu-title">
+								<span>Main</span>
+							</li>
+							<li >
+								<a href="../index.html"><i class="fe fe-home"></i> <span>Dashboard</span></a>
+							</li>
+							<li >
+								<a href="appointment-list.html"><i class="fe fe-layout"></i> <span>Appointments</span></a>
+							</li>
+							<li>
+								<a href="doctor-list.html"><i class="fe fe-user-plus"></i> <span>Doctors</span></a>
+							</li>
+							<li class="active">
+								<a href="patient-list.html"><i class="fe fe-user"></i> <span>Patients</span></a>
+							</li>
+							<li>
+								<a href="prescription-list.html"><i class="fe fe-user"></i> <span>Prescription</span></a>
+							</li>
+							<li>
+								<a href="item-list.html"><i class="fe fe-user"></i> <span>Items</span></a>
+							</li>
+							<li>
+								<a href="profile.html"><i class="fe fe-user-plus"></i> <span>Profile</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /Sidebar -->
+			
+			<!-- Page Wrapper -->
+            <div class="page-wrapper">
+                <div class="content container-fluid">
+				
+					<!-- Page Header -->
+					<div class="page-header">
+						<div class="row">
+							<div class="col-sm-7">
+								<h3 class="page-title">List of Patient</h3>
+								<ul class="breadcrumb">
+									<li class="breadcrumb-item"><a href="../index.html">Dashboard</a></li>
+									<li class="breadcrumb-item"><a href="javascript:(0);">Patient</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-5 col">
+								<a href="patient-profile-settings.html"  class="btn btn-primary float-right mt-2">Add</a>
+							</div>
+						</div>
+					</div>
+					<!-- /Page Header -->
+					
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="table-responsive">
+										<div class="table-responsive">
+										<table class="datatable table table-hover table-center mb-0">
+											<thead>
+												<tr>
+													<th>Patient Name</th>
+													<th>DOB</th>
+													<th>Mobile</th>
+													<th>Address</th>
+													<th>Paid</th>
+												</tr>
+											</thead>
+											<tbody id="patient-list-table">
+
+											</tbody>
+										</table>
+									</div>
+									</div>
+								</div>
+							</div>
+						</div>			
+					</div>
+					
+				</div>			
+			</div>
+			<!-- /Page Wrapper -->
+		
+        </div>
+		<!-- /Main Wrapper -->
+
+
+	<script src="../scripts/patient/patient-list.js" ></script>
+    </body>
+
+</html>
